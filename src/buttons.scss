@@ -1,0 +1,80 @@
+@import './colours.scss';
+
+%button {
+    background-color: $light;
+    color: $dark;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+}
+
+.button {
+    @extend %button;
+}
+.button.primary {
+    @extend %button;
+    color: $light;
+    background-color: $primary;
+}
+.button.danger {
+    @extend %button;
+    color: $light;
+    background-color: $danger;
+}
+.button.warning {
+    @extend %button;
+    color: $dark;
+    background-color: $warning;
+}
+.button.success {
+    @extend %button;
+    color: $light;
+    background-color: $success;
+}
+.button.link {
+    @extend %button;
+    color: $light;
+    background-color: $link;
+}
+.button.info {
+    @extend %button;
+    color: $light;
+    background-color: $info;
+}
+.button.dark {
+    @extend %button;
+    color: $light;
+    background-color: $dark;
+}
+
+.button:hover:not([disabled]) {
+    background-color: darken($light, 10%);
+}
+.button.primary:hover:not([disabled]) {
+    background-color: darken($primary, 10%);
+}
+.button.danger:hover:not([disabled]) {
+    background-color: darken($danger, 10%);
+}
+.button.warning:hover:not([disabled]) {
+    background-color: darken($warning, 10%);
+}
+.button.success:hover:not([disabled]) {
+    background-color: darken($success, 10%);
+}
+.button.link:hover:not([disabled]) {
+    background-color: darken($link, 10%);
+}
+.button.info:hover:not([disabled]) {
+    background-color: darken($info, 10%);
+}
+.button.dark:hover:not([disabled]) {
+    background-color: darken($dark, 10%);
+}
+
+.button:disabled {
+    filter: blur(4px);
+}
