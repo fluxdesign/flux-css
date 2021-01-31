@@ -78,3 +78,6 @@
 .button:disabled {
     filter: blur(4px);
 }
+.button.disabled {
+    filter: blur(4px);
+}
