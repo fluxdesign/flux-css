@@ -28,6 +28,11 @@ p, a, span {
     @extend %body;
 }
 
+strong {
+    @extend %body;
+    color: $primary;
+}
+
 h1 {
     @extend %heading;
     font-size: 40px;
