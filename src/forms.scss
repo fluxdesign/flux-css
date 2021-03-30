@@ -2,7 +2,7 @@
 
 /* Input */
 
-input:not(input[type="checkbox"]):not(input[type="radio"]), textarea {
+input:not(input[type="checkbox"]):not(input[type="radio"]), textarea, select {
     padding: 15px;
     border: solid 1px white;
     outline: none;
@@ -17,35 +17,35 @@ input:not(input[type="checkbox"]):not(input[type="radio"]), textarea {
     transition: box-shadow .1s;
 }
 
-input:focus:not(input[type="checkbox"]):not(input[type="radio"]), textarea:focus {
+input:focus:not(input[type="checkbox"]):not(input[type="radio"]), textarea:focus, select:focus {
     border: solid 1px $gray-2;
     box-shadow: 0 0 5px $gray-2;
 }
 
-input:disabled:not(input[type="checkbox"]):not(input[type="radio"]), textarea:disabled {
+input:disabled:not(input[type="checkbox"]):not(input[type="radio"]), textarea:disabled, select:disabled {
     background-color: $light;
     filter: blur(4px);
 }
 
-input.success:not(input[type="checkbox"]):not(input[type="radio"]), textarea.success {
+input.success:not(input[type="checkbox"]):not(input[type="radio"]), textarea.success, select.success {
     border: solid;
     border-width: 2px;
     border-color: $success;
     color: $success;
 }
 
-input.success:focus:not(input[type="checkbox"]):not(input[type="radio"]), textarea.success:focus {
+input.success:focus:not(input[type="checkbox"]):not(input[type="radio"]), textarea.success:focus, select.success:focus {
     box-shadow: 0 0 5px $success;
 }
 
-input.danger:not(input[type="checkbox"]):not(input[type="radio"]), textarea.danger {
+input.danger:not(input[type="checkbox"]):not(input[type="radio"]), textarea.danger, select.danger {
     border: solid;
     border-width: 2px;
     border-color: $danger;
     color: $danger;
 }
 
-input.danger:focus:not(input[type="checkbox"]):not(input[type="radio"]), textarea.danger:focus {
+input.danger:focus:not(input[type="checkbox"]):not(input[type="radio"]), textarea.danger:focus, select.danger:focus {
     box-shadow: 0 0 5px $danger;
 }
 
@@ -88,3 +88,4 @@ input[type="radio"] {
     height: 20px;
     margin-right: 10px;
 }
+
