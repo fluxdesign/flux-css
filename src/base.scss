@@ -46,7 +46,6 @@ a:after:not(.navbar-link, .button) {
 a:hover:after:not(.navbar-link, .button) { transform: scaleX(1); }
 
 strong {
-    @extend %body;
     color: $primary;
 }
 
