@@ -1,0 +1,30 @@
+@import './colours.scss';
+
+.hero {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.hero.fullheight {
+    height: 100vh;
+}
+
+.hero.light {
+    background-color: $light;
+}
+
+.hero.dark {
+    background-color: $dark;
+    color: $light !important;
+}
+
+.hero-title {
+    font-size: 72px;
+}
