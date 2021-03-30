@@ -1,0 +1,90 @@
+@import './colours.scss';
+
+/* Input */
+
+input:not(input[type="checkbox"]):not(input[type="radio"]), textarea {
+    padding: 15px;
+    border: solid 1px white;
+    outline: none;
+    border-radius: 30px;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 100%;
+    max-width: 100%;
+    transition: border .2s;
+    transition: box-shadow .1s;
+}
+
+input:focus:not(input[type="checkbox"]):not(input[type="radio"]), textarea:focus {
+    border: solid 1px $gray-2;
+    box-shadow: 0 0 5px $gray-2;
+}
+
+input:disabled:not(input[type="checkbox"]):not(input[type="radio"]), textarea:disabled {
+    background-color: $light;
+    filter: blur(4px);
+}
+
+input.success:not(input[type="checkbox"]):not(input[type="radio"]), textarea.success {
+    border: solid;
+    border-width: 2px;
+    border-color: $success;
+    color: $success;
+}
+
+input.success:focus:not(input[type="checkbox"]):not(input[type="radio"]), textarea.success:focus {
+    box-shadow: 0 0 5px $success;
+}
+
+input.danger:not(input[type="checkbox"]):not(input[type="radio"]), textarea.danger {
+    border: solid;
+    border-width: 2px;
+    border-color: $danger;
+    color: $danger;
+}
+
+input.danger:focus:not(input[type="checkbox"]):not(input[type="radio"]), textarea.danger:focus {
+    box-shadow: 0 0 5px $danger;
+}
+
+/* Checkbox */ 
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox *:hover {
+    cursor: pointer;
+}
+
+/* Radio */ 
+
+.radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.radio label {
+    margin-right: 10px;
+}
+
+.radio *:hover {
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
