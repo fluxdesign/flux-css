@@ -1,0 +1,24 @@
+.hero {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center; }
+
+.hero-content {
+  margin-left: 15vw;
+  margin-right: 15vw; }
+
+.hero.fullheight {
+  height: 100vh; }
+
+.hero.light {
+  background-color: #F2F2F2; }
+
+.hero.dark {
+  background-color: #333333;
+  color: #F2F2F2 !important; }
+
+.hero-title {
+  font-size: 72px; }
+
+/*# sourceMappingURL=heroes.css.map */

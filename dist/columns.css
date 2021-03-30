@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-flow: wrap; }
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 10px; }
+
+/*# sourceMappingURL=columns.css.map */

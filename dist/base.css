@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth; }
+
+/* Text */
+p, a, span {
+  color: #333333;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+  font-family: 'Manrope', sans-serif;
+  margin: 10px 0;
+  padding: 0; }
+
+a:after:not(.navbar-link, .button) {
+  content: '';
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  background: #2F80ED;
+  transition: transform .2s ease;
+  transform: scaleX(0);
+  transform-origin: bottom left; }
+
+a:hover:after:not(.navbar-link, .button) {
+  transform: scaleX(1); }
+
+strong {
+  color: #E51062; }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  font-size: 35px; }
+
+h3 {
+  font-size: 30px; }
+
+h4 {
+  font-size: 25px; }
+
+h5 {
+  font-size: 20px; }
+
+h6 {
+  font-size: 15px; }
+
+/* Sections */
+section {
+  margin: 10vh 15vw; }
+
+/*# sourceMappingURL=base.css.map */

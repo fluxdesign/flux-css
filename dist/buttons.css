@@ -1,0 +1,74 @@
+.button, .button.primary, .button.danger, .button.warning, .button.success, .button.link, .button.info, .button.dark {
+  background-color: #F2F2F2;
+  color: #333333;
+  text-decoration: none;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  display: inline-block;
+  transition: background-color .1s; }
+
+.button.primary {
+  color: #F2F2F2;
+  background-color: #E51062; }
+
+.button.danger {
+  color: #F2F2F2;
+  background-color: #E73D3D; }
+
+.button.warning {
+  color: #333333;
+  background-color: #F2C94C; }
+
+.button.success {
+  color: #F2F2F2;
+  background-color: #27AE60; }
+
+.button.link {
+  color: #F2F2F2;
+  background-color: #2F80ED; }
+
+.button.info {
+  color: #F2F2F2;
+  background-color: #2D9CDB; }
+
+.button.dark {
+  color: #F2F2F2;
+  background-color: #333333; }
+
+.button:hover:not([disabled]) {
+  background-color: #d9d9d9; }
+
+.button.primary:hover:not([disabled]) {
+  background-color: #b50d4e; }
+
+.button.danger:hover:not([disabled]) {
+  background-color: #d61b1b; }
+
+.button.warning:hover:not([disabled]) {
+  background-color: #efbb1c; }
+
+.button.success:hover:not([disabled]) {
+  background-color: #1e8449; }
+
+.button.link:hover:not([disabled]) {
+  background-color: #1366d6; }
+
+.button.info:hover:not([disabled]) {
+  background-color: #1f7fb6; }
+
+.button.dark:hover:not([disabled]) {
+  background-color: #1a1a1a; }
+
+.button:disabled {
+  filter: blur(4px); }
+
+.button.disabled {
+  filter: blur(4px); }
+
+button:hover, .button:hover {
+  cursor: pointer; }
+
+/*# sourceMappingURL=buttons.css.map */

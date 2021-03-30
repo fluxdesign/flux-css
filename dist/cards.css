@@ -1,0 +1,18 @@
+.card {
+  background-color: #F2F2F2;
+  color: #333333;
+  border-radius: 15px;
+  padding: 30px;
+  margin-right: 20px; }
+
+.card h1 {
+  margin-bottom: 20px; }
+
+.card.shadow {
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1); }
+
+.card.blur {
+  backdrop-filter: blur(15px);
+  background-color: rgba(242, 242, 242, 0.8) !important; }
+
+/*# sourceMappingURL=cards.css.map */
