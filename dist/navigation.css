@@ -76,7 +76,7 @@
 
   .navbar-menu .navbar-link {
     padding: 20px;
-    margin-left: 10px;
+    margin-left: 10vw;
     display: block;
     transition: all .1s;
     width: 100vw;
@@ -84,7 +84,8 @@
     text-align: left; }
 
   .navbar-menu .button {
-    margin: 20px; }
+    margin: 20px;
+    margin-left: 14vw; }
 
   .navbar-menu.open {
     left: 0; }
